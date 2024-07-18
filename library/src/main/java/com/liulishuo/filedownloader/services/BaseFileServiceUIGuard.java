@@ -137,7 +137,7 @@ public abstract class BaseFileServiceUIGuard<CALLBACK extends Binder, INTERFACE 
                     + " and is likely to cause unexpected problems.\n Maybe you want to use"
                     + " non-separate process mode for FileDownloader, More detail about "
                     + "non-separate mode, please move to wiki manually:"
-                    + " https://github.com/lingochamp/FileDownloader/wiki/filedownloader.properties"
+                    + " https://github.com/Goooler/FileDownloader/wiki/filedownloader.properties"
             );
         }
 

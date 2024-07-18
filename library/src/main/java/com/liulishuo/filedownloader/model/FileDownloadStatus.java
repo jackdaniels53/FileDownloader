@@ -23,7 +23,7 @@ import com.liulishuo.filedownloader.BaseDownloadTask;
  * The downloading status.
  *
  * @see com.liulishuo.filedownloader.IFileDownloadMessenger
- * @see <a href="https://raw.githubusercontent.com/lingochamp/FileDownloader/master/art/filedownloadlistener_callback_flow.png">Callback-Flow</a>
+ * @see <a href="https://raw.githubusercontent.com/Goooler/FileDownloader/master/art/filedownloadlistener_callback_flow.png">Callback-Flow</a>
  */
 public class FileDownloadStatus {
     // [-2^7, 2^7 -1]

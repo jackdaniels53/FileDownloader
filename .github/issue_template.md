@@ -1,7 +1,7 @@
 #### Before Issue
 
-1. Please search on the [Issues](https://github.com/lingochamp/FileDownloader/issues)
-2. Please search on the [wiki](https://github.com/lingochamp/FileDownloader/wiki)
+1. Please search on the [Issues](https://github.com/Goooler/FileDownloader/issues)
+2. Please search on the [wiki](https://github.com/Goooler/FileDownloader/wiki)
 3. Please set `FileDownloadLog.NEED_LOG=true` and review the Logcat output from main process and `:filedownloader` process ( pay attention to Warn and Error level logcat)
 
 #### Issue
@@ -13,7 +13,7 @@
 5. Could you please reproduce this problem and provide all main process and `:filedownloader` process logcat 
 6. Can you fix it by yourself and request PR, if not, what's problem do you get when you try to fix it
 
->P.S. If you don't know how to get `:filedownloader` process, it's recommended to using `pidcat` to just filter all your application logcat, or define `process.non-separate=true` on [filedownloader.properties](https://github.com/lingochamp/FileDownloader/wiki/filedownloader.properties)
+>P.S. If you don't know how to get `:filedownloader` process, it's recommended to using `pidcat` to just filter all your application logcat, or define `process.non-separate=true` on [filedownloader.properties](https://github.com/Goooler/FileDownloader/wiki/filedownloader.properties)
 
 ---
 
