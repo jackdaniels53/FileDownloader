@@ -2,6 +2,11 @@
 
 > [ Change log in english](https://github.com/Goooler/FileDownloader/blob/master/CHANGELOG.md)
 
+
+## Version 1.7.8
+
+- Fix: 在 `targetSdk` 34 上需要声明前台服务类型. ([#1421](https://github.com/lingochamp/FileDownloader/issues/1421))
+
 ## Version 1.7.7
 
 - 修复: FileDownloadThreadPool 可能会抛出 ArrayIndexOutOfBoundsException 和 ClassCastException。 closes #1258

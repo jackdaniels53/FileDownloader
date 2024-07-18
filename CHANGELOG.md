@@ -2,6 +2,10 @@
 
 > [中文迭代日志](https://github.com/Goooler/FileDownloader/blob/master/CHANGELOG-ZH.md)
 
+## Version 1.7.8
+
+- Fix: Foreground service types are required on `targetSdk` 34. ([#1421](https://github.com/lingochamp/FileDownloader/issues/1421))
+
 ## Version 1.7.7
 
 - Fix: FileDownloadThreadPool may throw ArrayIndexOutOfBoundsException & ClassCastException. closes #1258
