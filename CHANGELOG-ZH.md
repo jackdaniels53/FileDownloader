@@ -5,7 +5,7 @@
 
 ## Version 1.7.8
 
-- Fix: 在 `targetSdk` 34 上需要声明前台服务类型. ([#1421](https://github.com/lingochamp/FileDownloader/issues/1421))
+- 修复: 在 `targetSdk` 34 上需要声明前台服务类型. ([#1421](https://github.com/lingochamp/FileDownloader/issues/1421))
 
 ## Version 1.7.7
 
