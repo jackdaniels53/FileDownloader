@@ -81,7 +81,7 @@ FileDownloader 1.7.6 已经在 demo 中处理了此问题。
 在项目中引用:
 
 ```groovy
-implementation 'io.github.goooler.android:filedownloader-fork:1.7.8'
+implementation 'io.github.goooler.android:filedownloader-fork:1.7.9'
 ```
 
 > 如果是eclipse引入jar包参考: [这里](https://github.com/Goooler/FileDownloader/issues/212#issuecomment-232240415)

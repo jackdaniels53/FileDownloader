@@ -2,7 +2,7 @@
 
 > [中文迭代日志](https://github.com/Goooler/FileDownloader/blob/master/CHANGELOG-ZH.md)
 
-## Version 1.7.8
+## Version 1.7.9
 
 - Fix: Foreground service types are required on `targetSdk` 34. ([#1421](https://github.com/lingochamp/FileDownloader/issues/1421))
 

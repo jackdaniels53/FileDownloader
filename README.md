@@ -29,7 +29,7 @@ FileDownloader is installed by adding the following dependency to your `build.gr
 
 ```groovy
 dependencies {
-    implementation 'io.github.goooler.android:filedownloader-fork:1.7.8'
+    implementation 'io.github.goooler.android:filedownloader-fork:1.7.9'
 }
 ```
 
