@@ -1,12 +1,7 @@
 # FileDownloader
 Android 文件下载引擎，稳定、高效、灵活、简单易用
 
-[![Gitter][gitter_svg]][gitter_url]
-[![Download][bintray_svg]][bintray_url]
-![][file_downloader_svg]
-[![Build Status][build_status_svg]][build_status_link]
-[![][filedownloader_snapshot_svg]](https://oss.sonatype.org/content/repositories/snapshots/com/liulishuo/filedownloader/)
-
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.goooler.android/filedownloader-fork)](https://central.sonatype.com/artifact/io.github.goooler.android/filedownloader-fork)
 
 > [README DOC](https://github.com/Goooler/FileDownloader/blob/master/README.md)
 
@@ -86,7 +81,7 @@ FileDownloader 1.7.6 已经在 demo 中处理了此问题。
 在项目中引用:
 
 ```groovy
-implementation 'com.liulishuo.filedownloader:library:1.7.7'
+implementation 'io.github.goooler.android:filedownloader-fork:1.7.8'
 ```
 
 > 如果是eclipse引入jar包参考: [这里](https://github.com/Goooler/FileDownloader/issues/212#issuecomment-232240415)
@@ -507,11 +502,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-[gitter_url]: https://gitter.im/Goooler/FileDownloader?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
-[gitter_svg]: https://badges.gitter.im/Goooler/FileDownloader.svg
 [license_2_svg]: https://img.shields.io/hexpm/l/plug.svg
 [android_platform_svg]: https://img.shields.io/badge/Platform-Android-brightgreen.svg
-[file_downloader_svg]: https://img.shields.io/badge/Android-FileDownloader-orange.svg
 [mix_tasks_demo_gif]: https://github.com/Goooler/FileDownloader/raw/master/art/mix_tasks_demo.gif
 [parallel_tasks_demo_gif]: https://github.com/Goooler/FileDownloader/raw/master/art/parallel_tasks_demo.gif
 [serial_tasks_demo_gif]: https://github.com/Goooler/FileDownloader/raw/master/art/serial_tasks_demo.gif
@@ -520,9 +512,4 @@ limitations under the License.
 [avoid_drop_frames_2_gif]: https://github.com/Goooler/FileDownloader/raw/master/art/avoid_drop_frames2.gif
 [single_demo_gif]: https://github.com/Goooler/FileDownloader/raw/master/art/single_demo.gif
 [chunked_demo_gif]: https://github.com/Goooler/FileDownloader/raw/master/art/chunked_demo.gif
-[bintray_svg]: https://api.bintray.com/packages/jacksgong/maven/FileDownloader/images/download.svg
-[bintray_url]: https://bintray.com/jacksgong/maven/FileDownloader/_latestVersion
 [file_download_listener_callback_flow_png]: https://github.com/Goooler/FileDownloader/raw/master/art/filedownloadlistener_callback_flow.png
-[build_status_svg]: https://travis-ci.org/Goooler/FileDownloader.svg?branch=master
-[filedownloader_snapshot_svg]: https://img.shields.io/badge/SnapShot-1.7.8-yellow.svg
-[build_status_link]: https://travis-ci.org/Goooler/FileDownloader

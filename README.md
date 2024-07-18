@@ -2,10 +2,7 @@
 Android multi-task file download engine.
 
 
-[![Download][bintray_svg]][bintray_url]
-![][file_downloader_svg]
-[![Build Status][build_status_svg]][build_status_link]
-[![][filedownloader_snapshot_svg]](https://oss.sonatype.org/content/repositories/snapshots/com/liulishuo/filedownloader/)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.goooler.android/filedownloader-fork)](https://central.sonatype.com/artifact/io.github.goooler.android/filedownloader-fork)
 
 > [中文文档](https://github.com/Goooler/FileDownloader/blob/master/README-zh.md)
 
@@ -32,7 +29,7 @@ FileDownloader is installed by adding the following dependency to your `build.gr
 
 ```groovy
 dependencies {
-    implementation 'com.liulishuo.filedownloader:library:1.7.7'
+    implementation 'io.github.goooler.android:filedownloader-fork:1.7.8'
 }
 ```
 
@@ -116,7 +113,6 @@ limitations under the License.
 
 [license_2_svg]: https://img.shields.io/hexpm/l/plug.svg
 [android_platform_svg]: https://img.shields.io/badge/Platform-Android-brightgreen.svg
-[file_downloader_svg]: https://img.shields.io/badge/Android-FileDownloader-orange.svg
 [structure-img]: https://github.com/Goooler/FileDownloader/raw/master/art/structure.png
 [message-system-img]: https://github.com/Goooler/FileDownloader/raw/master/art/message-system.png
 [hybrid_test_demo_gif]: https://github.com/Goooler/FileDownloader/raw/master/art/hybrid_test_demo.gif
@@ -127,12 +123,7 @@ limitations under the License.
 [avoid_drop_frames_2_gif]: https://github.com/Goooler/FileDownloader/raw/master/art/avoid_drop_frames2.gif
 [single_demo_gif]: https://github.com/Goooler/FileDownloader/raw/master/art/single_demo.gif
 [chunked_demo_gif]: https://github.com/Goooler/FileDownloader/raw/master/art/chunked_demo.gif
-[bintray_svg]: https://api.bintray.com/packages/jacksgong/maven/FileDownloader/images/download.svg
-[bintray_url]: https://bintray.com/jacksgong/maven/FileDownloader/_latestVersion
 [file_download_listener_callback_flow_png]: https://github.com/Goooler/FileDownloader/raw/master/art/filedownloadlistener_callback_flow.png
-[build_status_svg]: https://travis-ci.org/Goooler/FileDownloader.svg?branch=master
-[filedownloader_snapshot_svg]: https://img.shields.io/badge/SnapShot-1.7.8-yellow.svg
-[build_status_link]: https://travis-ci.org/Goooler/FileDownloader
 [FileDownloadConnection-java-link]: https://github.com/Goooler/FileDownloader/blob/master/library/src/main/java/com/liulishuo/filedownloader/connection/FileDownloadConnection.java
 [FileDownloadUrlConnection-java-link]: https://github.com/Goooler/FileDownloader/blob/master/library/src/main/java/com/liulishuo/filedownloader/connection/FileDownloadUrlConnection.java
 [FileDownloadDatabase-java-link]: https://github.com/Goooler/FileDownloader/blob/master/library/src/main/java/com/liulishuo/filedownloader/database/RemitDatabase.java
