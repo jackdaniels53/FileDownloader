@@ -18,17 +18,9 @@ android {
         buildConfigField "boolean", "DOWNLOAD_NEED_LOG", needLog == "true" ? "true" : "false"
     }
 
-    def releaseSigning = signingConfigs {
-        release {
-            keyAlias 'FileDownloaderDemoKey'
-            keyPassword 'liulishuo'
-            storeFile file('filedownloaderdemo.jks')
-            storePassword 'liulishuo'
-        }
-    }
     buildTypes {
         all {
-            signingConfig releaseSigning
+            signingConfig signingConfigs.debug
         }
         release {
             minifyEnabled true
