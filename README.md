@@ -1,5 +1,8 @@
 # FileDownloader
+
 Android multi-task file download engine.
+
+This is a fork of [FileDownloader](https://github.com/lingochamp/FileDownloader) for fixing [lingochamp/FileDownloader/issues/1421](https://github.com/lingochamp/FileDownloader/issues/1421).
 
 
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.goooler.android/filedownloader-fork)](https://central.sonatype.com/artifact/io.github.goooler.android/filedownloader-fork)
