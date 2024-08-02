@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.library'
     id 'com.vanniktech.maven.publish'
-    id 'signing'
 }
 
 plugins.apply('checkstyle')
@@ -31,14 +30,6 @@ afterEvaluate {
 
 checkstyle {
     toolVersion = '10.17.0'
-}
-
-mavenPublishing {
-    signAllPublications()
-}
-
-signing {
-    required = !version.toString().endsWith("-SNAPSHOT")
 }
 
 dependencies {
