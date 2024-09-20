@@ -2,6 +2,8 @@
 
 > [ Change log in english](https://github.com/Goooler/FileDownloader/blob/master/CHANGELOG.md)
 
+## Version 1.7.10
+- Change: Migrate foregroundServiceType to shortService.
 
 ## Version 1.7.9
 
